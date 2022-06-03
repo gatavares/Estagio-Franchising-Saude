@@ -1,0 +1,58 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+header{
+    background-color: white;
+}
+
+.header1 {
+    font-size: 14px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header1 a:hover{
+    transition-duration: 0.2s;
+    color: #32c4c4;
+}
+
+header a i{
+    margin-right: 10px;
+    color: #b5b5b5;
+}
+
+#phoneIcon {
+    transform: rotate(-40deg);
+}
+
+/* #email {
+
+} */
+
+#phone {
+    margin-left: 25px;
+}
+
+#reg{
+    margin-left: 40%;
+    color: #32c4c4;
+}
+
+#reg:hover{
+    color: black;
+}
+
+#linha-horizontal{
+    color: #32c4c4;
+}
+
+#logotipo{
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: 40%;
+    height: 60px;
+}
