@@ -38,7 +38,7 @@ header a i{
 }
 
 #reg{
-    margin-left: 40%;
+    margin-left: 50%;
     color: #32c4c4;
 }
 
@@ -53,6 +53,18 @@ header a i{
 #logotipo{
     margin-top: -5px;
     margin-bottom: -5px;
-    margin-left: 40%;
+    margin-left: 20%;
     height: 60px;
+}
+
+.alert{
+    color: #FF5D5D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#alertpage{
+    color: #FF5D5D;
+    font-size: 25px;
+    margin-top: -20px;
 }

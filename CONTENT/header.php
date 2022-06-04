@@ -1,7 +1,7 @@
 <header class="header1">
     <div class="container-fluid bg-ghost mt-3 text-center">
         <div id="navInfos">
-            <a id="email" href="#"><i id="emailIcon" class="fa-solid fa-envelope fa-xl"></i>porto@companhiasaude.com</a>
+            <a id="email" href="mailto:porto@companhiasaude.com"><i id="emailIcon" class="fa-solid fa-envelope fa-xl"></i>porto@companhiasaude.com</a>
             <a id="phone" href="tel:+351919015631"><i id="phoneIcon" class="fa-solid fa-phone-volume fa-xl"></i>919015631</a>
 
             <b id="reg">Registe-se</b>
@@ -9,7 +9,6 @@
     </div>
     <hr id="linha-horizontal">
 </header>
-
 
 
 <header class="header2">
@@ -36,4 +35,5 @@
     </div>
     <hr id="linha-horizontal">
 </header>
-<main class="container p-3">
+
+<main class="container p-3 text-center">
