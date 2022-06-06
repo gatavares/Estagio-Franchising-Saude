@@ -12,27 +12,42 @@
 
 
 <header class="header2">
-    <div class="container-fluid bg-ghost">
-        <div class="row">
-            <div class="col">
-                <img id="logotipo" src="ASSETS/logotipo.png" alt="Logotipo">
-            </div>
-            <div class="col text-end my-auto">
-                <?php 
-                // if(isset($_SESSION['tipoUtilizador'])){
-                //     if($_SESSION['tipoUtilizador'] == 1)
-                //         include('CONTENT/nav_admin.php');
-                //     else if($_SESSION['tipoUtilizador'] == 2)
-                //         include('CONTENT/nav_registado.php');
-                //     else
-                //         include('CONTENT/nav.php');
-                // }
-                // else
-                    include('CONTENT/navbar.php');
-                ?>
+    <nav class="navbar navbar-light bg-ghost navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">
+                <img src="ASSETS/logotipo.png" alt="Logotipo" width="228.72" height="60" class="d-inline-block align-text- center">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-lg-0 text-start">
+                    <li class="nav-item nav-item-margin">
+                    <a class="nav-link" aria-current="page" href="">Início</a>
+                    </li>
+                    <li class="nav-item nav-item-margin">
+                    <a class="nav-link" aria-current="page" href="">Franchising</a>
+                    </li>
+                    <li class="nav-item nav-item-margin">
+                    <a class="nav-link" aria-current="page" href="">Categorias</a>
+                    </li>
+                    <li class="nav-item nav-item-margin">
+                    <a class="nav-link" aria-current="page" href="">Contactos</a>
+                    </li>
+                    <li class="nav-item nav-item-margin">
+                    <a class="nav-link" aria-current="page" href="">Lista Franchisings</a>
+                    </li>
+                    <li class="nav-item nav-item1">
+                    <a class="nav-link" aria-current="page" href="">FAQs</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+
+
     <hr id="linha-horizontal">
 </header>
 

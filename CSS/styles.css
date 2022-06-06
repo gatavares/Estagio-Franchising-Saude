@@ -43,6 +43,7 @@ header a i{
 }
 
 #reg:hover{
+    transition-duration: 1s;
     color: black;
 }
 
@@ -50,11 +51,22 @@ header a i{
     color: #32c4c4;
 }
 
+.navbar-brand {
+    margin-top: -15px !important;
+    margin-bottom: -15px !important;
+    margin-left: 14.5% !important;
+}
+
+.navbar-nav{
+    margin-right: 19% !important;
+}
+
+.nav-item-margin{
+    margin-right: 35px !important;
+}
+
 #logotipo{
-    margin-top: -5px;
-    margin-bottom: -5px;
-    margin-left: 20%;
-    height: 60px;
+    height: 60px; 
 }
 
 .alert{
