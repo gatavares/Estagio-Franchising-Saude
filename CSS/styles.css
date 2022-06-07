@@ -1,8 +1,15 @@
-body{
-    font-family: 'Montserrat',sans-serif;
+* {
+    font-family: 'Montserrat', sans-serif;
+    outline: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
     background-color: white;
 }
 
@@ -10,17 +17,17 @@ header{
     font-size: 14px;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: black;
 }
 
-.header1 a:hover{
+.header1 a:hover {
     transition-duration: 0.2s;
-    color: #32c4c4;
+    color: #10bcb4;
 }
 
-header a i{
+header a i {
     margin-right: 10px;
     color: #b5b5b5;
 }
@@ -29,54 +36,126 @@ header a i{
     transform: rotate(-40deg);
 }
 
-/* #email {
-
-} */
-
 #phone {
     margin-left: 25px;
 }
 
-#reg{
-    margin-left: 50%;
-    color: #32c4c4;
+#reg {
+    margin-left: 35%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0cb8b6;
 }
 
-#reg:hover{
+#reg:hover {
     transition-duration: 1s;
     color: black;
 }
 
-#linha-horizontal{
-    color: #32c4c4;
+#linha-horizontal {
+    color: #10bcb4;
+}
+
+#navInfos{
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .navbar-brand {
     margin-top: -15px !important;
-    margin-bottom: -15px !important;
-    margin-left: 14.5% !important;
+    margin-bottom: -7px !important;
+    margin-left: 19% !important;
 }
 
-.navbar-nav{
-    margin-right: 19% !important;
+.navbar-nav {
+    margin-top: -5px !important;
+    margin-right: 27% !important;
 }
 
-.nav-item-margin{
-    margin-right: 35px !important;
+.nav-item-margin {
+    margin-right: 23px !important;
 }
 
-#logotipo{
-    height: 60px; 
+#logotipo {
+    height: 60px;
 }
 
-.alert{
+.alert {
     color: #FF5D5D;
     text-decoration: underline;
     font-weight: bold;
 }
 
-#alertpage{
+#alertpage {
     color: #FF5D5D;
     font-size: 25px;
     margin-top: -20px;
+}
+
+/* testes */
+main {
+    margin-top: 10px;
+}
+
+.margin {
+    margin: 75% 0;
+}
+
+.parallax {
+    background: url("../ASSETS/banner.jpg") fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.parallax-inner {
+    padding-top: 14.8%;
+    padding-bottom: 14.8%;
+}
+
+#title1 {
+    font-size: 34px;
+    margin-bottom: 19px;
+}
+
+#title2 {
+    font-size: 60px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 42px; 
+    color: #666;
+}
+
+.but-reg {
+    background-color: #10bcb4;
+    border-radius: 7px;
+    display: inline-flex;
+    padding: 0.8em 2.5em;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.but-reg:hover {
+    transform: translateY(-0.4px);
+    transition-duration: 0.4ms;
+}
+
+.inicio{
+    margin-top: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card{
+    height: 278px;
+    width: 350px;
 }
