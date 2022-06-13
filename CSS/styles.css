@@ -7,6 +7,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container-fuid {
+    width: 110%;
+    background-color: #fff;
 }
 
 header {
@@ -56,7 +66,7 @@ header a i {
     color: #10bcb4;
 }
 
-#navInfos{
+#navInfos {
     margin-bottom: -5px;
     margin-top: -5px;
 }
@@ -97,13 +107,13 @@ header a i {
     margin-top: -20px;
 }
 
-/* testes */
+/* PARALAX */
 main {
     margin-top: 10px;
 }
 
 .margin {
-    margin: 75% 0;
+    margin: 30% 0;
 }
 
 .parallax {
@@ -129,7 +139,7 @@ main {
 .banner p {
     font-size: 18px;
     line-height: 1.6em;
-    margin-bottom: 42px; 
+    margin-bottom: 42px;
     color: #666;
 }
 
@@ -149,13 +159,461 @@ main {
     transition-duration: 0.4ms;
 }
 
-.inicio{
+.inicio {
     margin-top: 120px;
     margin-left: 20%;
     margin-right: 20%;
 }
 
-.card{
+.card {
     height: 278px;
-    width: 350px;
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+}
+
+.card-content {
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    font-size: 40px
+}
+
+.border-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#border-copy {
+    color: #6758f3;
+    fill: #6758f3;
+    background-color: rgba(103, 88, 243, .1);
+}
+
+#border-chart {
+    color: #37af47;
+    fill: #37af47;
+    background-color: rgba(55, 175, 71, .1);
+}
+
+#border-earth {
+    color: #e6492d;
+    fill: #e6492d;
+    background-color: rgba(230, 73, 45, .1);
+}
+
+.vantagens {
+    margin-top: 120px;
+    --bs-gutter-x: 0rem;
+}
+
+/* DIVISORES */
+.hr {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.hr::before,
+.hr::after {
+    background-color: #0cb8b6;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+}
+
+.hr::before {
+    left: calc(50% + 30px);
+}
+
+.hr::after {
+    right: calc(50% + 30px);
+}
+
+.hr .icon {
+    display: inline-block;
+}
+
+.rotate {
+    animation: rotation 6s;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+.divisor p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.divisor {
+    margin-bottom: 40px;
+}
+
+
+
+
+/* FRANCHISING */
+.jsp-title {
+    font-size: 32px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.jsp-text {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 15px;
+}
+
+.jsp-avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.jsp-avatar-info {
+    margin-left: 20px;
+}
+
+.jsp-avatar-name {
+    margin-bottom: 2px;
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #0cb8b6;
+    font-weight: 600;
+}
+
+.jsp-avatar-designation {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #666;
+}
+
+.jsp-shedule-wrap {
+    padding: 20px;
+    background: #f9fafc;
+    margin-left: 30px;
+}
+
+.jsp-shedule {
+    border: 1px solid #0cb8b6;
+    padding: 30px 20px;
+}
+
+.jsp-shedule-list li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #b5b5b5;
+    padding: 10px 0;
+}
+
+.jsp-shedule-list {
+    padding: 0 0 0 0 !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.jsp-call {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.jsp-call-icon {
+    flex: none;
+    width: 32px;
+    margin-right: 15px;
+}
+
+#phoneIconCall {
+    transform: rotate(-40deg);
+    font-size: 32px;
+}
+
+.jsp-call-title {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 1px;
+    line-height: 1.2em;
+}
+
+.jsp-call-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0cb8b6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* CARTEGORIAS DE VENDA */
+.cv-tab-links.cv-style1 {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+}
+
+.cv-mp0 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-tab-links.cv-style1 li {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.cv-tab-links.cv-style1 li a {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px;
+    height: 110px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 3px 8px 0 #fbfbfb;
+}
+
+.cv-tab-links.cv-style1 li a:before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%) rotate(45deg);
+    border-radius: 0 0 7px 0;
+    transition: all 0.3s ease;
+}
+
+.cv-tab-links svg {
+    width: 48px;
+    height: 48px;
+}
+
+.cv-blue-box {
+    color: #0cb8b6;
+    fill: #0cb8b6;
+    background-color: rgba(12, 184, 182, .1);
+}
+
+.cv-blue-box i {
+    color: #0cb8b6;
+}
+
+.cv-red-box {
+    color: #e6492d;
+    fill: #e6492d;
+    background-color: rgba(230, 73, 45, .1);
+}
+
+.cv-green-box {
+    color: #37af47;
+    fill: #37af47;
+    background-color: rgba(55, 175, 71, .1);
+}
+
+.cv-dip-blue-box {
+    color: #1665d8;
+    fill: #1665d8;
+    background-color: rgba(22, 101, 216, .1);
+}
+
+.cv-dip-blue-box i {
+    color: #1665d8;
+}
+
+.cv-orange-box {
+    color: #f6ab2f;
+    fill: #f6ab2f;
+    background-color: rgba(246, 171, 47, .1);
+}
+
+.cv-gray-box {
+    color: #9ea0a5;
+    fill: #9ea0a5;
+    background-color: rgba(158, 160, 165, .1);
+}
+
+.cv-tab-title span {
+    margin-top: 4px;
+}
+
+.tab-content {
+    margin-top: 25px;
+}
+
+.cv-imagebox-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.cv-imagebox-subtitle {
+    font-size: 15px;
+    line-height: 1.6em;
+    margin-bottom: 17px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.cv-imagebox-text {
+    margin-bottom: 33px;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.cv-btn.cv-style1 {
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1.6em;
+    font-weight: 600;
+    padding: 0.8em 2.5em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.cv-btn.cv-style1.cv-color1 {
+    background-color: #0cb8b6;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cv-btn.cv-style1.cv-size-medium {
+    padding: 0.6em 1.8em;
+}
+
+
+
+
+/* DIVISOR CONTACTO */
+.hr1 {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.hr1::before,
+.hr1::after {
+    background-color: #0cb8b6;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+}
+
+.hr1::before {
+    left: calc(50% + 8px);
+}
+
+.hr1::after {
+    right: calc(50% + 8px);
+}
+
+.hr1 .icon {
+    display: inline-block;
+}
+
+
+/* FORM */
+.Contacto {
+    background-color: #f9fafc;
+    /* margin-top: 40px; */
+    background-image: url(../ASSETS/bg-form.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#text-blue {
+    color: #10bcb4;
+}
+
+.Contacto .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+
+.form-label {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.form-control,
+.form-select,
+.form-check-input {
+    box-shadow: none !important;
+    color: #666 !important;
+    margin-bottom: 25px !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #10bcb4 !important;
+    transition-duration: 0.3ms !important;
+}
+
+.btn-reg {
+    background-color: #10bcb4;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    padding: 0.8em 2.5em;
 }

@@ -1,14 +1,14 @@
 <!-- NAV DE INFOS E REGISTO -->
 <header class="container-fluid">
+    <div class="navInfos">
     <div class="container-fluid bg-ghost mt-3 text-center">
-        <div id="navInfos">
-            <a id="email" href="mailto:porto@companhiasaude.com"><i id="emailIcon" class="fa-solid fa-envelope"></i>porto@companhiasaude.com</a>
-            <a id="phone" href="tel:+351919015631"><i id="phoneIcon" class="fa-solid fa-phone-volume"></i>919015631</a>
+        <a id="email" href="mailto:porto@companhiasaude.com"><i id="emailIcon" class="fa-solid fa-envelope"></i>porto@companhiasaude.com</a>
+        <a id="phone" href="tel:+351919015631"><i id="phoneIcon" class="fa-solid fa-phone-volume"></i>919015631</a>
 
-            <b id="reg">Registe-se</b>
-        </div>
+        <b id="reg">Registe-se</b>
     </div>
     <hr id="linha-horizontal">
+    </div>
 
     <!-- NAVBAR -->
     <div class="header1 container-fluid">
