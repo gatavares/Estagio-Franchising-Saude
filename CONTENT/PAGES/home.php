@@ -13,7 +13,7 @@
     </section>
 
     <!-- Secção de Inicio -->
-    <section class="Inicio">
+    <section class="inicio">
         <div class="row row-cols-1 row-cols-xl-3 row-cols-xxl-3 g-4 align-items-center text-center">
             <div class="col">
                 <div class="card h-350 w-278">
@@ -408,7 +408,8 @@
     <!-- Secção de Contacto -->
     <section class="Contacto">
         <div class="divisor">
-            <h2 style="margin-top: 240px; font-size: 36px" class="text-center"><b>Peça hoje mais <span id="text-blue">informações</span></b>
+            <h2 style="margin-top: 240px; font-size: 36px" class="text-center"><b>Peça hoje mais <span
+                        id="text-blue">informações</span></b>
             </h2>
 
             <div class="hr1">
@@ -510,13 +511,54 @@
     <!-- Secção de Fotos -->
     <section class="Companhia-Fotos">
         <div class="divisor">
-            <h2 style="margin-top: 120px; font-size: 36px" class="text-center"><b>Alguns dos nossos <span id="text-blue">Franchisings</span></b>
+            <h2 style="margin-top: 120px; font-size: 36px" class="text-center"><b>Alguns dos nossos <span
+                        id="text-blue">Franchisings</span></b>
             </h2>
-            
+
             <div class="hr">
                 <img src="ASSETS/icon.png" class="icon rotate infinite linear" alt="icon">
             </div>
-            <p class="text-center">O nosso conceito chave na mão garante apoio total durante todo o processo desde a escolha do local à equipa e artigos a comercializar</p>
+            <p class="text-center">O nosso conceito chave na mão garante apoio total durante todo o processo desde a
+                escolha do local à equipa e artigos a comercializar</p>
+        </div>
+
+        <div class="container">
+            <div class="cf-portfolio-wrapper">
+                <div class="cf-isotop-filter cf-style1 text-center">
+                    <ul class="cf-mt">
+                        <li class="active"><a href="#" data-filter="*">Companhia da Saúde e Bem Estar</a></li>
+                        <li class="d-none"><a href="#" data-filter=".cardiology">Categoria 1</a></li>
+                        <li class="d-none"><a href="#" data-filter=".neurology">Categoria 2</a></li>
+                        <li class="d-none"><a href="#" data-filter=".urology">Categoria 3</a></li>
+                        <li class="d-none"><a href="#" data-filter=".pulmonary">Categoria 4</a></li>
+                        <li class="d-none"><a href="#" data-filter=".traumatology">Categoria 5</a></li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 g-sm-2 g-lg-3 text-center">
+                        <div class="col">
+                            <div class="p-3 bg-light">
+                                <img id="cf-1" src="ASSETS/franchising-1.png" alt="1">
+                                <img id="cf-4" src="ASSETS/franchising-4.png" alt="1">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 bg-light">
+                                <img id="cf-2" src="ASSETS/franchising-2.png" alt="1">
+                                <img id="cf-5" src="ASSETS/franchising-5.png" alt="1">
+                                <img id="cf-6" src="ASSETS/franchising-6.png" alt="1">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 bg-light">
+                                <img id="cf-3" src="ASSETS/franchising-3.png" alt="1">
+                                <img id="cf-6" src="ASSETS/franchising-7.png" alt="1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </div>

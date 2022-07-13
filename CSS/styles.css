@@ -617,3 +617,83 @@ a {
     border: none;
     padding: 0.8em 2.5em;
 }
+
+
+/*Fotos*/
+.cf-mt {
+    margin-top: 40px;
+}
+
+.cf-isotop-filter.cf-style1 {
+    margin-bottom: 30px;
+}
+
+.cf-isotop-filter.cf-style1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.cf-isotop-filter.cf-style1 li a {
+    padding: 7px 15px;
+    padding-top: 0;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.cf-isotop-filter.cf-style1 li.active a {
+    color: #0cb8b6;
+
+}
+
+
+.cf-isotop-filter.cf-style1 li.active a:before {
+    width: 100%;
+}
+
+.cf-isotop-filter.cf-style1 li a:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0%;
+    background-color: #0cb8b6;
+}
+
+#cf-1,
+#cf-2,
+#cf-5,
+#cf-6,
+#cf-7 {
+    width: 350px;
+    height: 222.72px;
+}
+
+#cf-4,
+#cf-5 {
+    margin-top: 30px;
+}
+
+#cf-3,
+#cf-4 {
+    width: 350px;
+}
+
+#cf-7,
+#cf-6 {
+    margin-top: 30px;
+}
