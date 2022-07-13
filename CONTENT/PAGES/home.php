@@ -10,7 +10,7 @@
                 <input class="but-reg" type="button" value="Registe-se">
             </div>
         </div>
-    </section>
+    </section id="Inicio">
 
     <!-- Secção de Inicio -->
     <section class="inicio">
@@ -95,7 +95,7 @@
 
 
     <!-- Secção de Franchising -->
-    <section class="franchising">
+    <section class="franchising" id="Franchising">
         <div class="divisor">
             <h2 style="margin-top: 120px; font-size: 36px" class="text-center"><b>Franchising</b></h2>
 
@@ -211,7 +211,7 @@
     </section>
 
     <!-- Secção de Categorias de Venda -->
-    <section class="Categorias-de-Venda">
+    <section class="Categorias-de-Venda" id="Categorias">
         <div class="divisor">
             <h2 style="margin-top: 120px; font-size: 36px" class="text-center"><b>Categorias de Venda</b></h2>
 
@@ -406,7 +406,7 @@
     </section>
 
     <!-- Secção de Contacto -->
-    <section class="Contacto">
+    <section class="Contacto" id="Contacto">
         <div class="divisor">
             <h2 style="margin-top: 240px; font-size: 36px" class="text-center"><b>Peça hoje mais <span
                         id="text-blue">informações</span></b>
@@ -509,7 +509,7 @@
     </section>
 
     <!-- Secção de Fotos -->
-    <section class="Companhia-Fotos">
+    <section class="Companhia-Fotos" id="Companhia-Fotos">
         <div class="divisor">
             <h2 style="margin-top: 120px; font-size: 36px" class="text-center"><b>Alguns dos nossos <span
                         id="text-blue">Franchisings</span></b>
@@ -561,7 +561,94 @@
             </div>
         </div>
     </section>
+
+    <!-- Secção de FAQs -->
+    <section class="FAQs" id="FAQs">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-12">
+                <img class="faq-img" src="ASSETS/faq-img.png">
+            </div>
+
+            <div class="col-lg-7 col-12 acordion-localization">
+                <div class="title-faqs">
+                    <h4><b>Questões frequentes</b></h4>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <b>1 - Porquê abrir uma loja da Companhia da Saúde & Bem Estar?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Porque vai entrar num mercado em crescimento e num conceito já testado, solidificado e
+                                com sucesso,
+                                vai ainda se juntar a uma equipe de profissionais com forte conhecimento do setor de
+                                mais de vinte
+                                anos.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <b>2 - Porquê não abro uma loja independente?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Porque se juntando à nossa rede vai usufruir de um Khow-How que a nossa empresa tem de
+                                muitos anos,
+                                formação continua, apoio ao longo de todo o processo e consegue chegar aos fornecedores
+                                em condições
+                                vantajosas que sozinho nunca seria possível.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <b>3 - Tenho de ter conhecimentos na área da Saúde?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Não necessariamente pois disponibilizamos formação para a vossa equipe mas se tiver
+                                alguma formação
+                                na área será uma mais valia.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <b>4 - Como sei onde posso abrir uma loja da Companhia da Saúde & Bem Estar?</b>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Estamos preparados para lhe fornecer todo o apoio desde a localização ideal para a sua
+                                loja, desde
+                                as obras necessárias, stock a introduzir, formação a vossa equipe ou seja é um conceito
+                                chave na
+                                mão.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-
-
-<div class="margin"></div>

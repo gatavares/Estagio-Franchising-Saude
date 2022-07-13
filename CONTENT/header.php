@@ -11,8 +11,8 @@
     </div>
 
     <!-- NAVBAR -->
-    <div class="header1 container-fluid">
-        <nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <div class="header1 container-fluid navbar-topFix" id="navFixed">
+        <nav class="navbar navbar-light bg-ghost navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">
                     <img src="ASSETS/logotipo.png" alt="Logotipo" width="228.72" height="60" class="d-inline-block align-text- center">
@@ -25,22 +25,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-lg-0 text-start">
                         <li class="nav-item nav-item-margin">
-                        <a class="nav-link" aria-current="page" href=""><b>Início</b></a>
+                        <a class="nav-link" aria-current="page" href="#Inicio"><b>Início</b></a>
                         </li>
                         <li class="nav-item nav-item-margin">
-                        <a class="nav-link" aria-current="page" href=""><b>Franchising</b></a>
+                        <a class="nav-link" aria-current="page" href="#Franchising"><b>Franchising</b></a>
                         </li>
                         <li class="nav-item nav-item-margin">
-                        <a class="nav-link" aria-current="page" href=""><b>Categorias</b></a>
+                        <a class="nav-link" aria-current="page" href="#Categorias"><b>Categorias</b></a>
                         </li>
                         <li class="nav-item nav-item-margin">
-                        <a class="nav-link" aria-current="page" href=""><b>Contactos</b></a>
+                        <a class="nav-link" aria-current="page" href="#Contacto"><b>Contactos</b></a>
                         </li>
                         <li class="nav-item nav-item-margin">
-                        <a class="nav-link" aria-current="page" href=""><b>Lista Franchisings</b></a>
+                        <a class="nav-link" aria-current="page" href="#Companhia-Fotos"><b>Lista Franchisings</b></a>
                         </li>
                         <li class="nav-item nav-item1">
-                        <a class="nav-link" aria-current="page" href=""><b>FAQs</b></a>
+                        <a class="nav-link" aria-current="page" href="#FAQs"><b>FAQs</b></a>
                         </li>
                     </ul>
                 </div>

@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     line-height: 1.6em;
 }
 
@@ -25,6 +26,28 @@ header {
 
 .header1 {
     font-size: 14px;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.bg-ghost{
+    background-color: #fff;
+}
+
+.navbar-topFix {
+    z-index: 100;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+    box-shadow: 0 10px 10px -10px rgb(33 43 53 / 10%);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 header a {
@@ -58,8 +81,18 @@ header a i {
 }
 
 #reg:hover {
-    transition-duration: 1s;
+    transition-duration: 0.3s;
     color: black;
+}
+
+#email:hover {
+    transition-duration: 0.3s;
+    color: #0cb8b6;
+}
+
+#phone:hover {
+    transition-duration: 0.3s;
+    color: #0cb8b6;
 }
 
 #linha-horizontal {
@@ -74,6 +107,7 @@ header a i {
 .navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    height: 77px !important;
 }
 
 .navbar-brand {
@@ -117,6 +151,7 @@ main {
 }
 
 .parallax {
+    margin-top: -8px;
     background: url("../ASSETS/banner.jpg") fixed;
     background-position: center center;
     background-size: cover;
@@ -696,4 +731,48 @@ li {
 #cf-7,
 #cf-6 {
     margin-top: 30px;
+}
+
+/* FAQS */
+
+.FAQs {
+    margin-top: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 120px;
+}
+
+.accordion-item {
+    margin-top: 20px;
+}
+
+.accordion-button {
+    font-size: 15px;
+}
+
+.accordion-body {
+    font-size: 15px;
+    color: #666;
+}
+
+.accordion-button:hover {
+    color: #10bcb4;
+    background-color: #e1f4f5;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: white;
+    background-color: #10bcb4;
+}
+
+.faq-img {
+    max-width: 140%;
+    height: auto;
+    margin-left: -140px;
 }
