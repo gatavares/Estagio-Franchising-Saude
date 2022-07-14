@@ -22,6 +22,9 @@ img {
 
 header {
     background-color: white;
+    transition: all;
+    transition-duration: 0.4s;
+    transition-property: ease;
 }
 
 .header1 {
@@ -33,7 +36,7 @@ header {
     padding-left: 0 !important;
 }
 
-.bg-ghost{
+.bg-ghost {
     background-color: #fff;
 }
 
@@ -108,6 +111,7 @@ header a i {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 77px !important;
+    border-top: solid 1px rgb(16, 188, 180, .4);
 }
 
 .navbar-brand {
@@ -775,4 +779,89 @@ li {
     max-width: 140%;
     height: auto;
     margin-left: -140px;
+}
+
+/* FOOTER */
+footer {
+    background-image: url(https://franchising.companhiasaude.com/public/media/footer-bg.png);
+}
+
+#footer {
+    color: #0cb8b6 !important;
+}
+
+.icons-footer {
+    list-style-type: none;
+    display: flex;
+}
+
+.icons-footer li a {
+    font-size: 22px;
+    color: #0cb8b6;
+}
+
+.icons-footer li {
+    margin-right: 10px;
+}
+
+footer img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#links-group {
+    margin-top: 10px !important;
+}
+
+#link-footer {
+    margin-top: 15px !important;
+}
+
+.btn-login {
+    background-color: #10bcb4;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    display: inline-flex;
+    padding: 0.4em 1em;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.title-footer {
+    color: #0cb8b6;
+    margin-bottom: 30px;
+}
+
+footer .links a {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #666 !important;
+}
+
+footer .links a .fa-chevron-right{
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.links li {
+    margin-bottom: 15px;
+}
+
+.text-muted {
+    margin-left: 300px;
+}
+
+footer p .text-muted {
+    margin-top: 0;
+    margin-bottom: 0;
 }

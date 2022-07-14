@@ -10,10 +10,10 @@
                 <input class="but-reg" type="button" value="Registe-se">
             </div>
         </div>
-    </section id="Inicio">
+    </section>
 
     <!-- Secção de Inicio -->
-    <section class="inicio">
+    <section class="inicio" id="Inicio">
         <div class="row row-cols-1 row-cols-xl-3 row-cols-xxl-3 g-4 align-items-center text-center">
             <div class="col">
                 <div class="card h-350 w-278">
@@ -538,20 +538,20 @@
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 g-sm-2 g-lg-3 text-center">
                         <div class="col">
-                            <div class="p-3 bg-light">
+                            <div class="p-3 bg-ghost">
                                 <img id="cf-1" src="ASSETS/franchising-1.png" alt="1">
                                 <img id="cf-4" src="ASSETS/franchising-4.png" alt="1">
                             </div>
                         </div>
                         <div class="col">
-                            <div class="p-3 bg-light">
+                            <div class="p-3 bg-ghost">
                                 <img id="cf-2" src="ASSETS/franchising-2.png" alt="1">
                                 <img id="cf-5" src="ASSETS/franchising-5.png" alt="1">
                                 <img id="cf-6" src="ASSETS/franchising-6.png" alt="1">
                             </div>
                         </div>
                         <div class="col">
-                            <div class="p-3 bg-light">
+                            <div class="p-3 bg-ghost">
                                 <img id="cf-3" src="ASSETS/franchising-3.png" alt="1">
                                 <img id="cf-6" src="ASSETS/franchising-7.png" alt="1">
                             </div>
